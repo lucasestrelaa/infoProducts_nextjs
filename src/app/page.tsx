@@ -50,7 +50,6 @@ export default function Home() {
       <div className="sm:mx-auto sm:w-full sm:max-lg:">
         
         <div className=' bg-gray-200 border-solid rounded-2xl p-2'>
-        <p className='text-gray-800'>Teste page 1</p>
         {/* <button className='mr-3  items-center justify-center rounded-md border border-transparent bg-lime-600 px-8 py-3 text-base font-medium text-white hover:bg-lime-800 focus:outline-none focus:ring-2 focus:ring-lime-600 focus:ring-offset-2' onClick={() => setMenu(1)}>menu1</button> */}
         {/* <button className='mr-3  items-center justify-center rounded-md border border-transparent bg-lime-600 px-8 py-3 text-base font-medium text-white hover:bg-lime-800 focus:outline-none focus:ring-2 focus:ring-lime-600 focus:ring-offset-2' onClick={() => setMenu(2)}>menu2</button>
         <button className='mr-3  items-center justify-center rounded-md border border-transparent bg-lime-600 px-8 py-3 text-base font-medium text-white hover:bg-lime-800 focus:outline-none focus:ring-2 focus:ring-lime-600 focus:ring-offset-2' onClick={() => setMenu(3)}>menu3</button> */}
