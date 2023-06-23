@@ -23,7 +23,7 @@ export default function Home() {
         </p>
         </div>
         <div className='p-2 pb-4'>
-          <a className='bg-green-500 hover:bg-green-300 rounded-s p-2 ' href="https://go.hotmart.com/U84079697P">Clique Aqui para mudar de vida!</a>
+          <a className='bg-green-500 hover:bg-green-300 rounded-s p-2 ' href="https://go.hotmart.com/U84079697P">Compre agora!</a>
         </div>
         <br></br>
         <div>
@@ -43,7 +43,7 @@ export default function Home() {
         </p>
         </div>
         <div className='p-2'>
-          <a className='bg-green-500 hover:bg-green-300 rounded-s p-2 ' href="https://go.hotmart.com/U84079697P">Clique Aqui!</a>
+          <a className='bg-green-500 hover:bg-green-300 rounded-s p-2 ' href="https://go.hotmart.com/U84079697P">Compre agora!</a>
         </div>
         <br></br>
         <div>
@@ -60,7 +60,7 @@ export default function Home() {
         </p>
         </div>
         <div className='p-2'>
-          <a className='bg-green-500 hover:bg-green-300 rounded-s p-2 ' href="https://go.hotmart.com/U84079697P">Clique Aqui!</a>
+          <a className='bg-green-500 hover:bg-green-300 rounded-s p-2 ' href="https://go.hotmart.com/U84079697P">Compre agora!</a>
         </div>
       </div>
     )
@@ -88,7 +88,7 @@ export default function Home() {
 
       </div>
       </div>
-    
+
 
   </div>
     </>
