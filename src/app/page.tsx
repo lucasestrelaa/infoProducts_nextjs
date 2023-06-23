@@ -9,25 +9,58 @@ export default function Home() {
     return(
       <div className='text-gray-800 text-center m-2 p-2'>
         <div>
-        <h1 className='font-bold text-lg'>Conheça nossos produtos</h1>
+        <h1 className='font-bold text-lg'>Como ter uma vida mais saudável?</h1>
         </div>
         <div className='flex justify-center items-center rounded-2xl p-4'>
-          <Image className='self-center' src='/img1.jpg' alt='' title='' width={600} height={600}/>
+          <Image className='self-center' src='/imgA.jpg' alt='' title='' width={600} height={600}/>
         </div>
         <div>
         <p className='justify-start'>
-          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e 
-          de impressos, e vem sendo utilizado desde o século XVI, quando um impressor
-          desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro
-          de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como
-          também ao salto para a editoração eletrônica, permanecendo essencialmente
-          inalterado. Se popularizou na década de 60, quando a Letraset lançou
-          decalques contendo passagens de Lorem Ipsum, e mais recentemente quando
-          passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+          A saúde é um dos aspectos mais valiosos da vida humana. 
+          Ter uma boa saúde é essencial para desfrutar de uma vida plena e satisfatória. 
+          Nesse sentido, o emagrecimento pode desempenhar um papel crucial, 
+          pois a manutenção de um peso saudável está intimamente ligada ao bem-estar físico e mental.
+        </p>
+        </div>
+        <div className='p-2 pb-4'>
+          <a className='bg-green-500 hover:bg-green-300 rounded-s p-2 ' href="https://go.hotmart.com/U84079697P">Clique Aqui para mudar de vida!</a>
+        </div>
+        <br></br>
+        <div>
+        <h1 className='font-bold text-lg'>Excesso de peso...</h1>
+        </div>
+        <div className='flex justify-center items-center rounded-2xl p-4'>
+          <Image className='self-center' src='/imgE.jpg' alt='' title='' width={600} height={600}/>
+        </div>
+        <div>
+        <p className='justify-start'>
+          Em primeiro lugar, é importante destacar que o excesso de peso pode levar 
+          a uma série de problemas de saúde. A obesidade, por exemplo, está associada 
+          a condições como diabetes tipo 2, doenças cardíacas, pressão alta, derrame 
+          cerebral, apneia do sono e diversos tipos de câncer. Além disso, o peso 
+          excessivo coloca uma carga adicional nas articulações, o que pode levar 
+          a problemas como osteoartrite.
         </p>
         </div>
         <div className='p-2'>
-          <a className='bg-lime-300 hover:bg-lime-500 rounded-s p-2 ' href="https://go.hotmart.com/U84079697P">Clique Aqui!</a>
+          <a className='bg-green-500 hover:bg-green-300 rounded-s p-2 ' href="https://go.hotmart.com/U84079697P">Clique Aqui!</a>
+        </div>
+        <br></br>
+        <div>
+        <h1 className='font-bold text-lg'>Como esse E-book te ajudará?</h1>
+        </div>
+        <div className='flex justify-center items-center rounded-2xl p-4'>
+          <Image className='self-center' src='/imgB.jpg' alt='' title='' width={600} height={600}/>
+        </div>
+        <div>
+        <p className='justify-start'>
+          É necessário que você entenda que este é o melhor e-book e te ajudará com inúmeras dicas de como
+          se alimentar de forma saudável e na redução de peso!
+          Com ele você entenderá que é necessário um equilibrio entre a sua alimentação!
+        </p>
+        </div>
+        <div className='p-2'>
+          <a className='bg-green-500 hover:bg-green-300 rounded-s p-2 ' href="https://go.hotmart.com/U84079697P">Clique Aqui!</a>
         </div>
       </div>
     )
@@ -49,18 +82,13 @@ export default function Home() {
     <div className="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-lg:">
         
-        <div className=' bg-gray-200 border-solid rounded-2xl p-2'>
-        {/* <button className='mr-3  items-center justify-center rounded-md border border-transparent bg-lime-600 px-8 py-3 text-base font-medium text-white hover:bg-lime-800 focus:outline-none focus:ring-2 focus:ring-lime-600 focus:ring-offset-2' onClick={() => setMenu(1)}>menu1</button> */}
-        {/* <button className='mr-3  items-center justify-center rounded-md border border-transparent bg-lime-600 px-8 py-3 text-base font-medium text-white hover:bg-lime-800 focus:outline-none focus:ring-2 focus:ring-lime-600 focus:ring-offset-2' onClick={() => setMenu(2)}>menu2</button>
-        <button className='mr-3  items-center justify-center rounded-md border border-transparent bg-lime-600 px-8 py-3 text-base font-medium text-white hover:bg-lime-800 focus:outline-none focus:ring-2 focus:ring-lime-600 focus:ring-offset-2' onClick={() => setMenu(3)}>menu3</button> */}
+        <div className='bg-white border-solid rounded-2xl p-2'>
         <hr className='text-gray-800'></hr>
         {menu1()}
-          {/* {menu === 1 && menu1()}
-          {menu === 2 && menu2()}
-          {menu === 3 && menu3()} */}
-      </div>
-      </div>
 
+      </div>
+      </div>
+    
 
   </div>
     </>
