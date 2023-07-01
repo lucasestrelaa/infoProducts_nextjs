@@ -60,7 +60,7 @@ export default function Teste() {
   })
   
   function getPercent(current: any, previous: any) {
-    return (current / previous - 1) * 100
+    return (current / previous - 1) * 100;
   }
   
   function formatMoney(value: any) {
