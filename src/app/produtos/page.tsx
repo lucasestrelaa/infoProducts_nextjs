@@ -54,6 +54,18 @@ export default function Teste() {
       </div>
     )
   }
+  const moneyFormatter = new Intl.NumberFormat('pt-BR', {
+    style: 'currency',
+    currency: 'BRL',
+  })
+  
+  function getPercent(current: any, previous: any) {
+    return (current / previous - 1) * 100
+  }
+  
+  function formatMoney(value: any) {
+    return moneyFormatter.format(value)
+  }
     return (
       <div style={{backgroundImage: "url('https://i.pinimg.com/originals/27/0f/77/270f77c03d98e9bdc6ccb81f3b174b4f.jpg')", backgroundRepeat: 'no-repeat', backgroundSize: "cover"}}>
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-20 lg:max-w-7xl lg:px-8">
@@ -61,10 +73,10 @@ export default function Teste() {
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 pb-6 ">
             {produtos.map((res: any) => { 
               return (
-                  <div key={res.id} className="group relative bg-gray-300 m-2 p-4 rounded">
-                    {/* <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                  <div key={res.id} className="group relative bg-gray-100 m-2 p-4 rounded">
+                    <div style={{ textAlign: "-webkit-center", height: "150px"}}>
                       <Image src={res.imagem} width={100} height={100} alt={res.titulo}/>
-                    </div> */}
+                    </div>
                     <div className="mt-4 mb-4 flex justify-between">
                       <div>
                         <h3 className="text-sm text-gray-700">
@@ -75,7 +87,7 @@ export default function Teste() {
                         </h3>
                         <p className="mt-1 text-sm text-gray-500">{res.texto}</p>
                       </div>
-                      <p className="text-sm font-medium text-gray-900 ">Por apenas R${res.preco}</p>
+                      <p className="text-sm font-medium text-gray-900 ">Por apenas {formatMoney(res.preco)}</p>
                       
                     </div>
                     <div className='text-center'>

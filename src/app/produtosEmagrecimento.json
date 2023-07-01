@@ -12,7 +12,7 @@
         "titulo": "Zero Estrias Método Americano 2023",
         "texto": "maneira eficaz de se livrar das estrias?",
         "preco": 47.00,
-        "imagem": "https://static-media.hotmart.com/xi95alDHHPJ-4lCnHG8woME6ULA=/filters:background_color(white)/hotmart/product_pictures/8b9b5aa4-6891-4b4b-9a67-24238a9291a5/MtodoAmericano1.png",
+        "imagem": "/MtodoAmericano1.png",
         "link": "https://go.hotmart.com/C84146712Q?dp=1"
     },
     {
@@ -20,6 +20,7 @@
         "titulo": "Emagreça em 19 dias",
         "texto": "Desafio de 19 dias para emagrecimento",
         "preco": 67.00,
+        "imagem": "/antesdepois.jpg",
         "link": "https://go.hotmart.com/D84148095K?ap=cd0c"
     },
     {
@@ -27,6 +28,7 @@
         "titulo": "Emagreça com saúde",
         "texto": "Seja saudável!",
         "preco": 39.90,
+        "imagem": "/alimentacao.jpg",
         "link": "https://go.hotmart.com/K84147682T?dp=1"
     },
     {
@@ -34,6 +36,7 @@
         "titulo": "Tenha resultados",
         "texto": "Precisa emagrecer?",
         "preco": 29.99,
+        "imagem": "/saude.jpg",
         "link": "https://go.hotmart.com/T84147800Y?dp=1"
     },
     {
@@ -41,6 +44,7 @@
         "titulo": "Receitas Para Secar em 30 Dias 2.0",
         "texto": "Você emagrecerá com esse produto",
         "preco": 47.00,
+        "imagem": "/fitness.jpg",
         "link": "https://go.hotmart.com/D84147875L?ap=489e"
     }
 ]
