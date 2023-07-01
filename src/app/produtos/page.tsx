@@ -74,7 +74,7 @@ export default function Teste() {
             {produtos.map((res: any) => { 
               return (
                   <div key={res.id} className="group relative bg-gray-100 m-2 p-4 rounded">
-                    <div style={{ textAlign: "-webkit-center", height: "150px"}}>
+                    <div className='img' style={{ height: "150px"}}>
                       <Image src={res.imagem} width={100} height={100} alt={res.titulo}/>
                     </div>
                     <div className="mt-4 mb-4 flex justify-between">
